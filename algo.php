@@ -73,10 +73,24 @@ echo "<br>";
 echo "EXERCICE 5";
 echo "<br>";
 
-function exo5($exo5var1, string $exo5var2) {
+function exo5( int $exo5var1, string $exo5var2) {
     return $exo5var1 . " " . $exo5var2;
 }
 
 $resultatexo5 = exo5(29, "ans");
 
 echo $resultatexo5;
+
+// EXERCICE 6
+echo "<br>";
+echo "<br>";
+echo "EXERCICE 5";
+echo "<br>";
+
+function exo6( string $exo6var1, string $exo6var2, int $exo6var3) {
+    return "Bonjour {$exo6var1}  {$exo6var2} tu as {$exo6var3} ans.";
+}
+
+$resultatexo6 = exo6("FOUGEROUSE" , "Elodie", 29);
+
+echo $resultatexo6;
