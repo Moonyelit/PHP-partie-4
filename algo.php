@@ -34,3 +34,11 @@ echo "<br>";
 echo "<br>";
 echo "EXERCICE 3";
 echo "<br>";
+
+function exo3 ($exo3var1,$exo3var2) : string{
+        return $exo3var1 . " " . $exo3var2; 
+}
+
+$resultat = exo3("Hello", "World");
+
+echo $resultat;
