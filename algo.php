@@ -67,3 +67,16 @@ $resultatexo4 = exo4(4 , 34);
 
 echo $resultatexo4;
 
+// EXERCICE 5
+echo "<br>";
+echo "<br>";
+echo "EXERCICE 5";
+echo "<br>";
+
+function exo5($exo5var1, string $exo5var2) {
+    return $exo5var1 . " " . $exo5var2;
+}
+
+$resultatexo5 = exo5(29, "ans");
+
+echo $resultatexo5;
