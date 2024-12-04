@@ -84,7 +84,7 @@ echo $resultatexo5;
 // EXERCICE 6
 echo "<br>";
 echo "<br>";
-echo "EXERCICE 5";
+echo "EXERCICE 6";
 echo "<br>";
 
 function exo6( string $exo6var1, string $exo6var2, int $exo6var3) {
@@ -94,3 +94,42 @@ function exo6( string $exo6var1, string $exo6var2, int $exo6var3) {
 $resultatexo6 = exo6("FOUGEROUSE" , "Elodie", 29);
 
 echo $resultatexo6;
+
+// EXERCICE 7
+echo "<br>";
+echo "<br>";
+echo "EXERCICE 7";
+echo "<br>";
+
+function exo7 (string $exo7var1, int $exo6var2){
+    $réponse7 = "";
+if ($exo7var1 == "homme") {
+    $réponse7 .= "Vous êtes un homme ";
+} else {
+    $réponse7 .=  "Vous êtes une femme ";
+}
+if ($exo6var2 < 18) {
+    $réponse7 .=  "et vous êtes mineur";
+} else {
+    $réponse7 .=  "et vous êtes majeur";
+}
+
+return $réponse7; 
+}
+
+$resultatexo7 = exo7 ("femme" , 29);
+echo $resultatexo7;
+
+
+ // EXERCICE 8
+echo "<br>";
+echo "<br>";
+echo "EXERCICE 8";
+echo "<br>";
+
+function exo8 (int $exo8var1 = 25, int $exo8var2 = 5,int $exo8var3 = 10) : int {
+    return($exo8var1 + $exo8var2  + $exo8var3 );
+}
+
+$resultatexo8 = exo8(1,2,3);
+echo $resultatexo8;
